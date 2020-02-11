@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.container{
+  display: grid;
+  grid-gap: 2px;
+  border: 1px solid black;
+}
+
 header nav {
   width: 100%;
   margin-bottom: 7px;
@@ -25,4 +31,161 @@ header nav ul li {
   list-style: none;
   text-align: center;
   padding: 50px 0 ;
+}
+
+
+
+.container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-rows: repeat(2, auto);
+  
+
+    background-color: burlywood;
+  gap: 10px;
+}
+
+.trial {
+  border: 3px solid chartreuse;
+  height: 782px;
+}
+
+.trial2{
+  border: 3px solid chartreuse;
+
+  height: 582px;
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.box2{
+  border: 3px solid chartreuse;
+
+  height: 520px;
+}
+
+.container3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box3{
+  border: 3px solid chartreuse;
+
+  height: 630px;
+}
+
+.container4{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.box4{
+  border: 3px solid chartreuse;
+
+  height: 824px;
+}
+
+.container5{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.box5{
+  border: 3px solid chartreuse;
+
+  height: 668px;
+}
+
+.container6{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.box6{
+  border: 3px solid chartreuse;
+
+  height: 253px;
+}
+
+.container7{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.box7{
+  border: 3px solid chartreuse;
+
+  height: 1106px;
+}
+
+.container8{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.box8{
+  border: 3px solid chartreuse;
+
+  height: 1748px;
+}
+
+.container9{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.box9{
+  border: 3px solid chartreuse;
+
+  height: 415px;
+}
+
+.container10{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box9{
+  border: 3px solid chartreuse;
+
+  height: 839px;
+}
+
+.container11{
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+.box11{
+  border: 3px solid chartreuse;
+
+  height: 921px;
+}
+
+.container12{
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+.box12{
+  border: 3px solid chartreuse;
+
+  height: 348px;
+}
+
+.container13{
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+.box13{
+  border: 3px solid chartreuse;
+
+  height: 688px;
 }
