@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container{
+.container {
   display: grid;
   grid-gap: 2px;
   border: 1px solid black;
@@ -33,65 +33,82 @@ header nav ul li {
   padding: 50px 0 ;
 }
 
-
-
-.container1{
+.container1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   grid-template-rows: repeat(2, auto);
-  
-
-    background-color: burlywood;
   gap: 10px;
+
 }
 
-.trial {
+.container1 div {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 4rem;
   border: 3px solid chartreuse;
+}
+
+.firstbox-1 {
   height: 782px;
+  background-color: grey;
 }
 
-.trial2{
-  border: 3px solid chartreuse;
+.firstbox-2 {
+  height: 782px;
+  background-color: rgb(116, 114, 114);
+}
 
+.secondbox-1 {
   height: 582px;
+  background-color: lightgrey;
 }
 
-.container2{
+.secondbox-2 {
+  height: 582px;
+  background-color: rgb(221, 215, 215);
+}
+
+.first-box {
+  background-color: grey;
+}
+
+.container2 {
   display: grid;
   grid-template-columns: 1fr;
-
-}
-
-.box2{
-  border: 3px solid chartreuse;
-
+  background-color: rgb(126, 119, 119);
+  border: 3px solid black;
   height: 520px;
 }
 
-.container3{
+.container3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.box3{
-  border: 3px solid chartreuse;
-
+.box3 {
+  border: 1px solid black;
   height: 630px;
+  background-color: white;
 }
 
-.container4{
+.container4 {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-.box4{
-  border: 3px solid chartreuse;
-
+.container4-first-child {
+  background-color: rgb(48, 45, 45);
+  border: 3px solid black;
   height: 824px;
 }
 
-.container5{
+.box4 {
+  border: 3px solid black;
+  height: 824px;
+  background-color: rgb(165, 154, 154);
+}
+
+.container5 {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
 }
