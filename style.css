@@ -10,24 +10,21 @@
 }
 
 header nav {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: grey;
   width: 100%;
+  height: 194px;
 }
 
-header nav ul {
-  display: flex;
-  width: 100%;
-}
-
-header nav ul li {
-  align-self: center;
-  width: 100%;
-  height: 15px;
-  background-color: rgb(119, 116, 116);
-  color: white;
-  font-size: 35px;
-  list-style: none;
-  text-align: center;
-  padding: 50px 0;
+.nav-link {
+  display: grid;
+  justify-content: right;
+  font-size: 25px;
+  margin-top: 70px;
+  font-weight: bolder;
 }
 
 .container1 {
@@ -77,13 +74,17 @@ header nav ul li {
 
 .container3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.box3 {
+.container3 article {
+  display: grid;
   border: 1px solid black;
   height: 630px;
   background-color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
 }
 
 .container4 {
