@@ -27,14 +27,13 @@ header nav ul li {
   font-size: 35px;
   list-style: none;
   text-align: center;
-  padding: 50px 0 ;
+  padding: 50px 0;
 }
 
 .container1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, auto);
-
 }
 
 .container1 div {
@@ -109,84 +108,81 @@ header nav ul li {
   grid-template-columns: 1fr 1fr 2fr;
 }
 
-.box5{
+.box5 {
   border: 1px solid black;
   background-color: rgb(165, 154, 154);
-
   height: 668px;
 }
 
-.box5-large{
+.box5-large {
   border: 1px solid black;
   background-color: rgb(48, 45, 45);
-
   height: 668px;
 }
 
-.container6{
+.container6 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.box6{
+.box6 {
   border: 1px solid black;
   background-color: rgb(165, 154, 154);
-
   height: 251px;
 }
 
-.container7{
+.container7 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.box7{
+.box7 {
   border: 1px solid black;
-background-color: rgb(77, 64, 64);
+  background-color: rgb(77, 64, 64);
   height: 1106px;
 }
 
-.container8{
+.container8 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.box8{
+.box8 {
   border: 1px solid black;
-background-color: white;
+  background-color: white;
   height: 1748px;
 }
 
-.container9{
+.container9 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.box9{
+.box9 {
   border: 1px solid black;
-background-color: rgba(128, 128, 128, 0.534);
+  background-color: rgba(128, 128, 128, 0.534);
   height: 415px;
 }
 
-.container10{
+.container10 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.box10{
+.box10 {
   border: 1px solid black;
-background-color: rgb(201, 195, 195);
+  background-color: rgb(201, 195, 195);
   height: 839px;
 }
 
-.container11{
+.container11 {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
 }
 
-.box11{
+.box11 {
   border: 1px solid black;
-background-color: rgb(71, 56, 56);
+  background-color: rgb(71, 56, 56);
   height: 921px;
   margin-left: 5%;
   margin-right: 5%;
@@ -194,24 +190,23 @@ background-color: rgb(71, 56, 56);
   border-radius: 9px;
 }
 
-.container12{
+.container12 {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
 }
 
-.box12{
+.box12 {
   border: 1px solid black;
-
   height: 348px;
 }
 
-.container13{
+.container13 {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
 }
 
-.box13{
+.box13 {
   border: 1px solid black;
-background-color: rgb(95, 80, 80);
+  background-color: rgb(95, 80, 80);
   height: 688px;
 }
