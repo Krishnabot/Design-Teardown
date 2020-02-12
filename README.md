@@ -23,7 +23,7 @@ Additional description about the project and its features.
 - HTML5 & CSS3
 
 ## Live Demo
-hhttps://raw.githack.com/Krishnabot/Design-Teardown/tree/feature-branch
+https://raw.githack.com/Krishnabot/Design-Teardown/tree/feature-branch
 
 
 ## Authors
