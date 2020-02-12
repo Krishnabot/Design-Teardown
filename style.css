@@ -96,12 +96,20 @@ header nav {
   background-color: rgb(48, 45, 45);
   border: 1px solid black;
   height: 824px;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  display: grid;
 }
 
 .box4 {
   border: 1px solid black;
   height: 824px;
   background-color: rgb(165, 154, 154);
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  display: grid;
 }
 
 .container5 {
@@ -113,12 +121,20 @@ header nav {
   border: 1px solid black;
   background-color: rgb(165, 154, 154);
   height: 668px;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  display: grid;
 }
 
 .box5-large {
   border: 1px solid black;
   background-color: rgb(48, 45, 45);
   height: 668px;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  display: grid;
 }
 
 .container6 {
@@ -201,13 +217,25 @@ header nav {
   height: 348px;
 }
 
-.container13 {
-  display: grid;
+footer {
+  display: flex;
   grid-template-columns: 1fr;
+  background-color: rgb(95, 80, 80);
+  border: 1px solid black;
+  height: 688px;
+  font-size: 30px;
 }
 
-.box13 {
-  border: 1px solid black;
-  background-color: rgb(95, 80, 80);
-  height: 688px;
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer a {
+  display: flex;
+  color: antiquewhite;
+  list-style: none;
+  margin-top: 150px;
+  padding: 8px;
 }
